@@ -1,10 +1,23 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
 .root {
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    width: 100vw;
 }
 
 .main-area {
     display: flex;
+    flex-grow: 1;
 }
 
 .main-area__section {
