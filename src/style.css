@@ -1,0 +1,18 @@
+.root {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-area {
+    display: flex;
+}
+
+.main-area__section {
+    flex-basis: 50%;
+    padding: 2rem 5%;
+}
+
+.input {
+    width: 100%;
+    min-height: 25%;
+}
